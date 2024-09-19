@@ -13,6 +13,7 @@ int main()
 	std::cout << "\nPlease choose the operation you wanted to solve (+,-,*,/) : ";
 	std::cin >> z;
 	calculation(x, y, z);
+	std::cout<<"hello pedo enjoyer";
 }
 int calculation(double a, double b, char operation)
 {
