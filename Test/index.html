@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page - Z Pattern</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="image/logo.webp" alt="Library Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="categoryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Category</a>
+                        <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
+                            <li><a class="dropdown-item" href="booksGenere/literature.html">Literature</a></li>
+                            <li><a class="dropdown-item" href="booksGenere/science.html">Science</a></li>
+                            <li><a class="dropdown-item" href="booksGenere/history.html">History</a></li>
+                            <li><a class="dropdown-item" href="booksGenere/children.html">Children</a></li>
+                            <li><a class="dropdown-item" href="booksGenere/mentality.html">Mentality</a></li>
+                            <li><a class="dropdown-item" href="booksGenere/economy.html">Economy</a></li>
+                            <li><a class="dropdown-item" href="booksGenere/lifeskills.html">Life Skills</a></li>
+                            <li><a class="dropdown-item" href="booksGenere/sport.html">Sport</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="policy.html">Policy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="search-bar ms-3">
+                    <input type="text" class="form-control" placeholder="Search book, author...">
+                    <button class="btn btn-outline-primary">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                <a href="login.html" class="btn btn-primary ms-3">Login</a>
+                <a href="register.html" class="btn btn-outline-primary ms-2">Sign Up</a>
+            </div>
+        </div>
+    </nav>     
+    <div class="container">
+        <!-- Main -->
+        <main class="row flex-grow-1 align-items-center justify-content-center">
+            <section class="col-md-6 text-center text-md-start welcome">
+                <h2 class="display-5">Welcome back!</h2>
+                <p>Log in to access your account and explore our collection.</p>
+            </section>
+            <section class="col-md-6">
+                <div class="login-form">
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Login</button>
+                    </form>
+                    <p class="text-center mt-3">Don't have an account? <a href="register.html">Register here</a>.</p>
+                </div>
+            </section>
+        </main>        
+    </div>
+
+    <footer style="background-color: #343a40; color: #fff; padding: 20px 20px; font-size: 16px;">
+        <div style="display: flex; justify-content: space-between; max-width: 1200px; margin: 0 auto; gap: 20px;">
+            <!-- Company Section -->
+            <div style="flex: 1; min-width: 200px; max-width: 300px;">
+                <h3 style="color: #3fa1f1; font-size: 20px; margin-bottom: 20px;">Company</h3>
+                <ul style="list-style: none; padding: 0; line-height: 1.8;">
+                    <li>
+                        <a href="#" style="text-decoration: none; color: #aaa; transition: color 0.3s;">
+                            <i class="fas fa-info-circle" style="margin-right: 8px;"></i> About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none; color: #aaa; transition: color 0.3s;">
+                            <i class="fas fa-phone-alt" style="margin-right: 8px;"></i> Contact Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none; color: #aaa; transition: color 0.3s;">
+                            <i class="fas fa-calendar-check" style="margin-right: 8px;"></i> Reservation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none; color: #aaa; transition: color 0.3s;">
+                            <i class="fas fa-shield-alt" style="margin-right: 8px;"></i> Privacy Policy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none; color: #aaa; transition: color 0.3s;">
+                            <i class="fas fa-file-contract" style="margin-right: 8px;"></i> Terms & Conditions
+                        </a>
+                    </li>
+                </ul>
+            </div>            
+    
+            <!-- Contact Section -->
+            <div style="flex: 1; min-width: 200px; max-width: 300px;">
+                <h3 style="color: #3fa1f1; font-size: 20px; margin-bottom: 20px;">Contact</h3>
+                <p style="margin: 10px 0; color: #bbb;">
+                    <i class="fas fa-map-marker-alt" style="margin-right: 8px;"></i> VQCR+GP6, khu phố 6, Linh Trung, Thủ Đức, Hồ Chí Minh, Việt Nam
+                </p>
+                <p style="margin: 10px 0; color: #bbb;">
+                    <i class="fas fa-phone-alt" style="margin-right: 8px;"></i> 028 3896 6780
+                </p>
+                <p style="margin: 10px 0; color: #bbb;">
+                    <i class="fas fa-envelope" style="margin-right: 8px;"></i> vp@hcmuaf.edu.vn
+                </p>
+                <!-- Social media icons -->
+                <div style="margin-top: 15px; display: flex; gap: 15px;">
+                    <a href="#" style="color: #fff; font-size: 20px;"><i class="fab fa-twitter"></i></a>
+                    <a href="#" style="color: #fff; font-size: 20px;"><i class="fab fa-facebook"></i></a>
+                    <a href="#" style="color: #fff; font-size: 20px;"><i class="fab fa-youtube"></i></a>
+                    <a href="#" style="color: #fff; font-size: 20px;"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>            
+
+            <!-- Opening Section -->
+            <div style="flex: 1; min-width: 200px; max-width: 300px;">
+                <h3 style="color: #3fa1f1; font-size: 20px; margin-bottom: 20px;">Opening</h3>
+                <p style="margin: 10px 0; color: #bbb;">
+                    <i class="fas fa-clock" style="margin-right: 8px;"></i> Mon - Fri: 7:00 AM - 5:30 PM
+                </p>
+                <p style="margin: 10px 0; color: #bbb;">
+                    <i class="fas fa-clock" style="margin-right: 8px;"></i> Sunday: Closed
+                </p>
+            </div>            
+
+            <!-- Newsletter Section -->
+            <div style="flex: 1; min-width: 200px; max-width: 300px;">
+                <h3 style="color: #3fa1f1; font-size: 20px; margin-bottom: 20px;">If you're intersted</h3>
+                <p style="margin-bottom: 15px; color: #bbb;">Sign up for updates and promotions.</p>
+                <form class="newsletter-form">
+                    <input 
+                        type="email" 
+                        placeholder="Enter your email" 
+                        class="newsletter-input" 
+                        required>
+                    <button class="newsletter-button">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    
+        <div style="text-align: center; margin-top: 10px; color: #888; font-size: 14px;">
+            © 2024 Group2. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

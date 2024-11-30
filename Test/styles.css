@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+/* Navbar Custom Styles */
+.custom-navbar {
+    background-color: #343a40; /* Charcoal dark background for the navbar */
+    border-bottom: 3px solid #007bff; /* Blue accent border for contrast */
+    padding: 20px;
+}
+
+.custom-navbar .navbar-brand img {
+    height: 40px; /* Adjust the size of the logo */
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    color: #f8f9fa !important; /* Light gray for the text to stand out */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.custom-navbar .navbar-nav .nav-link:hover,
+.custom-navbar .navbar-nav .nav-link.active {
+    color: #5bc0de !important; /* Light blue for hover and active states */
+    background-color: rgba(91, 192, 222, 0.1); /* Light background on hover */
+}
+
+.search-bar input {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 8px 15px;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.custom-navbar .btn-primary {
+    background-color: #007bff; /* Blue button background */
+    border-color: #007bff;
+}
+
+.custom-navbar .btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+}
+
+.custom-navbar .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40; /* Match the navbar's dark color */
+    color: #f8f9fa; /* Light text */
+    padding: 15px 0;
+    font-size: 13px;
+}
+
+footer a {
+    color: #5bc0de;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+footer .newsletter-button {
+    background-color: #007bff;
+    color: white;
+}
+
+footer .newsletter-button:hover {
+    background-color: #0056b3;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    width: 200px;
+    margin-right: 10px;
+}
+
+/* Welcome Section */
+.welcome h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.welcome p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Login Form */
+.login-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-form .form-label {
+    font-weight: bold;
+}
+
+.login-form button {
+    font-size: 1rem;
+    font-weight: bold;
+}
